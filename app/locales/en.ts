@@ -44,6 +44,7 @@ const en: LocaleType = {
       PinToastAction: "View",
       Delete: "Delete",
       Edit: "Edit",
+      FullScreen: "FullScreen",
     },
     Commands: {
       new: "Start a new chat",
@@ -135,6 +136,7 @@ const en: LocaleType = {
   Settings: {
     Title: "Settings",
     SubTitle: "All Settings",
+    ShowPassword: "ShowPassword",
     Danger: {
       Reset: {
         Title: "Reset All Settings",
@@ -524,6 +526,21 @@ const en: LocaleType = {
   },
   FineTuned: {
     Sysmessage: "You are an assistant that",
+  },
+  SearchChat: {
+    Name: "Search",
+    Page: {
+      Title: "Search Chat History",
+      Search: "Enter search query to search chat history",
+      NoResult: "No results found",
+      NoData: "No data",
+      Loading: "Loading...",
+
+      SubTitle: (count: number) => `Found ${count} results`,
+    },
+    Item: {
+      View: "View",
+    },
   },
   Mask: {
     Name: "Mask",
