@@ -176,7 +176,7 @@ const cn = {
       },
     },
     Lang: {
-      Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
+      Name: "Language", // 注意：如果要添加新的翻译，请不要翻译此值，将它保留为 `Language`
       All: "所有语言",
     },
     Avatar: "头像",
@@ -562,6 +562,39 @@ const cn = {
         SubTitle: "生成语音的速度",
       },
     },
+    Realtime: {
+      Enable: {
+        Title: "实时聊天",
+        SubTitle: "开启实时聊天功能",
+      },
+      Provider: {
+        Title: "模型服务商",
+        SubTitle: "切换不同的服务商",
+      },
+      Model: {
+        Title: "模型",
+        SubTitle: "选择一个模型",
+      },
+      ApiKey: {
+        Title: "API Key",
+        SubTitle: "API Key",
+        Placeholder: "API Key",
+      },
+      Azure: {
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "接口地址",
+        },
+        Deployment: {
+          Title: "部署名称",
+          SubTitle: "部署名称",
+        },
+      },
+      Temperature: {
+        Title: "随机性 (temperature)",
+        SubTitle: "值越大，回复越随机",
+      },
+    },
   },
   Store: {
     DefaultTopic: "新的聊天",
@@ -597,7 +630,7 @@ const cn = {
     Sysmessage: "你是一个助手",
   },
   SearchChat: {
-    Name: "搜索",
+    Name: "搜索聊天记录",
     Page: {
       Title: "搜索聊天记录",
       Search: "输入搜索关键词",
